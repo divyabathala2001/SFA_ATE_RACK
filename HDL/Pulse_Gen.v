@@ -4,7 +4,7 @@ module Pulse_Gen #(parameter CLK_PERIOD_NS = 5, parameter width =16)//Assuming t
   input wire i_Reset,
   input wire i_valid_start,
   input wire i_valid_stop,
-  input wire [width-1 : 0]   i_PW,//in ns
+  input wire [width-1 : 0] i_PW,//in ns
   input wire [width-1 : 0] i_PRI,//in ns
   output wire o_Pulse
 );
